@@ -1,0 +1,103 @@
+
+
+.contact{
+  position: absolute;
+  background: url('../Group_Project/Undergraduates-20180329_1427JE.jpg');
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  z-index: -1;
+}
+.contact-us{
+  padding-top: 6%;
+}
+.row{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  align-items: center;
+  gap: 9px;
+  
+}
+@media (max-width:920px) {
+  .contact-us{
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  
+}
+
+.location{
+  width: 80%;
+  margin: 1em auto;
+  background: linear-gradient(45deg,red,yellow,green);
+
+  
+}
+.location iframe{
+  width: 100%;
+  height: 200px;
+}
+.contact-col{
+  
+}
+.form-container{
+width:100%;
+max-width: 700px;
+margin: 0 auto;
+padding: 20px;
+border-radius: 10px;
+color: #fff;
+background: rgba(165, 42, 42, 0.532);
+  
+}
+.input-row{
+  margin-bottom: 5px;
+}
+.input-row label{
+  display: block;
+  margin-bottom: 3px;
+
+}
+.input-row input,
+.input-row textarea{
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  margin-bottom: 3px;
+  font-size: 18px;
+
+}
+.input-row textarea{
+  height: 100px;
+}
+.input-row input[type="submit"]{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: brown;
+}
+.success{
+  background: #9fd2a1;
+  padding: 5px 10px;
+  text-align: center;
+  color: #326b07;
+  border-radius: 3px;
+  font-synthesis: 14px;
+  margin-top: 10px;
+}
+.success strong{
+  align-items: center;
+  padding: 5px 10px;
+}
