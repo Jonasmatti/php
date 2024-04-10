@@ -26,7 +26,7 @@ include("php/config.php");
     ?>
     <a href="
     " class="logo">
-      <img src="../Group_Project/NEXUS GH.png" alt="" width="160px" /></a>
+      <img src="NEXUS GH.png" alt="" width="160px" /></a>
 
     <ul class="navlist">
       <li><a href="home.php">Home</a></li>
@@ -183,7 +183,7 @@ include("php/config.php");
   <footer>
     <div class="footer-body">
       <div class="col">
-        <img src="../Group_Project/NEXUS GH.png" class="logo" />
+        <img src="NEXUS GH.png" class="logo" />
         <p>
           We greatly appreciate your time and trust in us. Your feedback helps
           us improve our services and better understand your needs. We're
